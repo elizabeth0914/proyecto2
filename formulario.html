@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="./estilo12.css" >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adopción</title>
+</head>
+<body>
+    <div class="formulario"> 
+        <form id = "form" action="https://formsubmit.co/ncorteshernandez8@gmail.com" method="post">
+    <ul>
+        <h1>Adopción</h1>
+        <li>
+            <label>Nombre: </label>
+            <input type="text"name="Nombre" placeholder="Nombre completo" size="35" class="inputForm" id="_nombreId">
+        </li> <br>
+        <li>
+            <label >Correo: </label>
+            <input type="text" name="Correo" id = "_correoId" placeholder="correo@ejemplo.com" size="36" class="inputForm" >
+        </li> <br>
+        <li>
+            <label for="name">Raza de perro que deseé adoptar</label>
+            <select id = "razaId" name="raza" required>
+                <option value="labrador">labrador</option>
+                <option value="Chihuahua">Chihuahua</option>
+                <option value="mestizo">mestizo</option>
+                <option value="schnauzer">schnauzer</option>
+          </select>
+        </li> <br>
+        <li>
+            <label for="name">Edad aproximada del perro</label>
+            <select name= "Edad">
+                <option value="2_meses">2 meses</option>
+                <option value="4_meses">4 meses</option>
+                <option value="6_meses">6 meses</option>
+                <option value="8_meses">8 meses</option>
+                <option value="mas_1">mas de un 1</option>
+          </select>
+        </li> <br>
+        <fieldset>
+            <legend>Nota:</legend>
+            Gracias por adoptar a uno de nuestros perritos en unos
+momentos recibirá un correo donde le brindaremos más
+información y el día que puede venir a conocerlo
+        </fieldset>
+        <br>
+        <li class="button">
+            <input type="submit" value="Enviar" id = "btnEnviar" class="Enviar"> 
+        <button type="reset" >Borrar</button>
+        </li>
+        </form>
+        <script src="validacion1.js"></script>
+    </div>
+    <button ><a href="./index.html">Regresar</a></button>
+</body>
+</html>
